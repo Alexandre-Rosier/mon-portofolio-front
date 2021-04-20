@@ -8,7 +8,8 @@ const Ul = styled.ul`
     flex-flow: row nowrap;
 
     li {
-        padding: 13px 10px;
+        padding: 10px;
+        margin: auto 0 auto;
     }
 
     @media (max-width: 600px) {
@@ -24,6 +25,7 @@ const Ul = styled.ul`
 
         li {
             color: white;
+            margin: 25%;
         }
     }
 `
