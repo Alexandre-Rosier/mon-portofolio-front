@@ -14,12 +14,12 @@ const Ul = styled.ul`
 
     @media (max-width: 600px) {
         flex-flow: column nowrap;
-        background-color: #02215f;
+        background-color: black;
         position: fixed;
         transform:  ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
         right: 0;
-        height: 100vh;
+        height: 78%;
         width: 300px;
         padding-top: 3.5rem;
 

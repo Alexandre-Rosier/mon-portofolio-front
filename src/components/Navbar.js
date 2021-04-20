@@ -10,8 +10,9 @@ const Nav = styled.nav`
     justify-content: space-between;
     padding-right:20px;
     padding-left:20px;
-    background-color: #18233a;
+    background-color: black;
     color: white;
+    text-shadow:1px 1px 1px #04c52d;
 
     .logo {
         margin: auto 0 auto 0;
